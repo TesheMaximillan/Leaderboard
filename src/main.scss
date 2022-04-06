@@ -49,7 +49,7 @@ body {
 
 .btn {
   border: 2px solid #000;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   width: 8rem;
   font-family: inherit;
   background: var(--white);
@@ -77,6 +77,7 @@ body {
     .recent-scores {
       margin-right: 5rem;
       width: 50%;
+
       &__head {
         display: flex;
         align-items: baseline;
@@ -87,7 +88,7 @@ body {
 
         .list-item {
           list-style: none;
-          padding: .5rem;
+          padding: 0.5rem;
 
           &:nth-child(even) {
             background-color: var(--light-grey);
@@ -98,17 +99,19 @@ body {
 
     .new-scores {
       width: 50%;
+
       .form {
         display: flex;
         flex-direction: column;
 
-        .name, .score {
+        .name,
+        .score {
           margin-bottom: 2rem;
 
           input {
             width: 100%;
             border: 2px solid #000;
-            padding: .5rem;
+            padding: 0.5rem;
 
             &::placeholder {
               font-family: inherit;
