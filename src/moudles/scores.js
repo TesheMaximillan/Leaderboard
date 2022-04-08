@@ -14,7 +14,7 @@ const createElement = (element = '', className = '', text = '') => {
 };
 
 // /////////////////// Display score
-async function displayScore() {
+const displayScore = async () => {
   const data = await getData().then((res) => res.result);
   data.forEach((e) => {
     const li = createElement('li', 'list-item');
@@ -24,7 +24,7 @@ async function displayScore() {
     ul.appendChild(li);
   });
   scoreList.appendChild(ul);
-}
+};
 
 // /////////////////// Add a new score
 const addNewScore = (form) => {
