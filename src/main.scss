@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: auto auto;
-  min-height: 100vh;
+  height: 100vh;
   padding: 3rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
   background-image: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
@@ -170,6 +170,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+
   .scores {
     flex-direction: column-reverse;
   }
@@ -177,6 +179,11 @@ body {
   .recent-scores {
     margin-top: 5rem;
     min-width: 100%;
+
+    ul {
+      max-height: calc(100vh - 52rem);
+      overflow-y: auto;
+    }
   }
 
   .new-scores {

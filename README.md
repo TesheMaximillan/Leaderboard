@@ -12,6 +12,10 @@
 - Webpack
 - API
 
+## Media screen💻📱🖥️
+
+- Responsive design below and above 768px
+
 ## Methodology
 
 ### Project Requirements
@@ -27,7 +31,9 @@
 
 ## Screenshot
 
-![project screenshot](https://user-images.githubusercontent.com/51437483/162336988-886a08fc-33b9-4ccd-a2f7-258471a78c83.png)
+![project screenshot - Large screen](https://user-images.githubusercontent.com/51437483/162481027-ad672d24-a813-4264-bc4c-465097dc2f71.png)
+
+![project screenshot - Smaller screen](https://user-images.githubusercontent.com/51437483/162484078-f7b80118-1a43-495c-8ab9-849a883e2e6e.png)
 
 # Author
 
